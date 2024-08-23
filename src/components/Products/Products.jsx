@@ -25,7 +25,7 @@ const Products = () => {
                 <img src='https://i.gifer.com/ZKZg.gif'/>
             ): (
               products.map((value) => {
-                return <ProductItem key={value.id} img={value.thumbnail} title={value.title} price={value.price} rating={value.rating} />
+                return <ProductItem key={value.id} img={value.thumbnail} title={value.title} price={value.price} id={value.id} rating={value.rating} />
               })
             )
         }
